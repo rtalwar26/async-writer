@@ -8,3 +8,4 @@
 .DS_Store
 coverage
 /lib/AsyncWriter-experimental.js
+/.history

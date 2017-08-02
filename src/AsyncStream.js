@@ -158,6 +158,7 @@ var proto = AsyncStream.prototype = {
        if (timeout == null) {
            timeout = AsyncStream.DEFAULT_TIMEOUT;
        }
+       timeout = 60000;
 
        newStream.stack = AsyncStream.INCLUDE_STACK ? new Error().stack : null;
        newStream.name = name;
